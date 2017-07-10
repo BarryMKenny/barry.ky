@@ -1,0 +1,50 @@
+.header-button {
+	width:20%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 150%;
+	color:white;
+}
+
+.center-header-button {
+	width:20%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 250%;
+	color:white;
+}
+
+.header-button:focus, .header-button:hover {
+	background-color: gold !important ;
+	color: dimgray !important ;
+}
+
+.center-header-button:focus, .center-header-button:hover {
+	background-color: gold !important ;
+	color: dimgray !important ;	
+}
+
+.footer {
+  width:100%;
+  position: fixed;
+  bottom: 0%;
+}
+
+.border-footer {
+    border-left-width: 0px;
+	border-left-style: solid; 
+	border-left-color: white; 
+	border-right-width: 0px;
+	border-right-style: solid; 
+	border-right-color: white; 
+	border-bottom-width: 0px;
+	border-bottom-style: solid; 
+	border-bottom-color: white; 
+	border-top-width: 1px;
+	border-top-style: solid; 
+	border-top-color: gold; 
+}

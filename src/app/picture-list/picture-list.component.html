@@ -1,0 +1,9 @@
+<span class="featured-header">{{title}}</span>
+<ul class="collection " style="bottom:0;">
+  <li *ngFor="let picture of pictures" class="collection-item avatar grey darken-3" >
+  	<a routerLink="{{route}}{{picture.id}}">
+    	<img [src]="picture.image" alt="" class="circle">
+    	<span class="title">{{picture.name}}</span>
+    </a>
+  </li>
+</ul>

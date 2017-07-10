@@ -1,0 +1,19 @@
+a:link    { color: gold }  /* unvisited links */
+a:hover   { color: #00c }  /* user hovers     */
+a:active  { color: #ccc }  /* active links    */
+
+ul {
+	border: 0px;
+}
+
+li a {
+	color: gold !important
+}
+
+.featured-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 150%;
+	color:gold;
+}

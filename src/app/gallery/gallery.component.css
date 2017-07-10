@@ -1,0 +1,39 @@
+.header-button {
+	width:100%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 150%;
+	color:white;
+}
+
+.center-header-button {
+	width:20%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 250%;
+	color:white;
+}
+
+.header-button:focus, .header-button:hover {
+	background-color: gold !important ;
+	color: dimgray !important ;
+}
+
+.center-header-button:focus, .center-header-button:hover {
+	background-color: gold !important ;
+	color: dimgray !important ;	
+}
+
+.card .card-content {
+	min-height: 20% !important;
+	padding: 0px !important;
+}
+
+.card:hover a {
+	background-color: gold;
+	color: dimgray;
+}

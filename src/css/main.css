@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  min-width: 100%;
+  height: 100%;            /*min-height hack*/
+  margin-bottom: -2em;     /*Negates #push on longer pages*/
+  background-color: #424242;
+}
+
+.waves-effect.waves-grey .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: #424242;
+}

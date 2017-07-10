@@ -1,7 +1,7 @@
 {
   "project": {
     "version": "1.0.0-beta.14",
-    "name": "contacts-app"
+    "name": "bky-app"
   },
   "apps": [
     {
@@ -12,7 +12,7 @@
       "main": "main.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.json",
-      "prefix": "trm",
+      "prefix": "bky",
       "mobile": false,
       "styles": [
         "../node_modules/materialize-css/dist/css/materialize.css"

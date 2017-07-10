@@ -1,0 +1,21 @@
+<div [ngClass]="{'navbar mobile-header' : isMobile, 'navbar-fixed mobile-header': !isMobile }">
+  <nav>
+    <div class="nav-wrapper grey darken-3 border-header mobile-header">
+    
+	    <a [routerLink]="['/gallery']" 
+	    	class="waves-effect waves-grey btn-flat left header-button">Photography</a>
+	    	
+	    <a [routerLink]="['/cv']" 
+	    	class="waves-effect waves-grey btn-flat left header-button">CV</a>
+	    	
+	    <a href="https://github.com/BarryMKenny" 
+	    	class="waves-effect waves-grey btn-flat right header-button" >Github</a>
+	    	
+	    <a [routerLink]="['/contact']" 
+	    	class="waves-effect waves-grey btn-flat right header-button">Contact</a>
+	    	
+	    <a [routerLink]="['/dashboard/70']" 
+	    	class="waves-effect waves-grey btn-flat right center-header-button">barry.ky</a>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,14 @@
+
+a:link    { color: gold }  /* unvisited links */
+a:hover   { color: #00c }  /* user hovers     */
+a:active  { color: #ccc }  /* active links    */
+
+
+.centered {
+  width:60%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}

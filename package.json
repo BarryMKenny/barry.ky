@@ -1,7 +1,7 @@
 {
-  "name": "angular2-master-class-app",
+  "name": "barry-ky",
   "version": "1.0.0",
-  "license": "thoughtram Training Material License (TTML 1.0)",
+  "license": "",
   "angular-cli": {},
   "scripts": {
     "rest-api": "node server/index.js",

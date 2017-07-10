@@ -1,2 +1,2 @@
-export * from './contacts.component';
+export * from './barry-ky.component';
 export * from './app.module';

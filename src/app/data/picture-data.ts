@@ -164,7 +164,7 @@ export const PICTURE_DATA = [
         id: 23,
         name: "Inception",
         type: "Amsterdam",
-        image: "assets/images/Amsterdam/24.jpg",
+        image: "assets/images/amsterdam/24.jpg",
         featured: "N"
     },
     {
